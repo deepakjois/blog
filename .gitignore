@@ -1,2 +1,4 @@
+# Git Ignore File
+
 .hugo_build.lock
 .DS_Store
