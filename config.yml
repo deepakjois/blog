@@ -1,5 +1,5 @@
 baseURL: "https://adithyaakrishna.github.io/"
-title: Adithya Krishna's Blog
+title: Adithya's Blog
 paginate: 5
 theme: PaperMod
 
@@ -16,9 +16,9 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  title: Adithya's Blog
+  description: "My Personal Blog"
+  keywords: [Blog, Portfolio, PaperMod, Adi, AdiKris, Red Hat]
   author: Adithya Krishna
   images: ["https://avatars.githubusercontent.com/u/23498248?v=4"]
   DateFormat: "January 2, 2006"
@@ -29,24 +29,25 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
   tocopen: false
+  disableHLJS: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "/favicon16.png"
-    favicon16x16: "/favicon16.png"
-    favicon32x32: "favicon32.png"
+    favicon: "/logo.png"
+    favicon16x16: "/logo.png"
+    favicon32x32: "logo.png"
     # apple_touch_icon: "<link / abs url>"
     # safari_pinned_tab: "<link / abs url>"
 
@@ -58,7 +59,20 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hello \U0001F44B"
-    Content: An Associate Software Engineer at [Red Hat](https://www.redhat.com), where I work with tools/libraries like ReactJS, NodeJS, Storybook, Patternfly(Red Hat's Design System), Lerna (monorepo manager), GitLab and it's Pipelines. I also work on AdobeXd and Figma designs to keep the creative part of me alive.
+    Content: > 
+      - I am an Associate Software Engineer at [Red Hat](https://www.redhat.com), where I work with tools/libraries like ReactJS, NodeJS, Storybook, Patternfly(Red Hat's Design System), Lerna (monorepo manager), GitLab and it's Pipelines. I also work on AdobeXd and Figma designs to keep the creative part of me alive.
+      
+      - 
+
+      - Maintainer (Docs) of [Meshery](https://github.com/meshery) (a CNCF Sandbox Project), where I contribute quite oftenly in areas of UI, GitHub Actions, documentation updates, reviewing PRs and suggesting improvements.
+      
+      -
+      
+      - A MeshMate at [Layer5](https://layer5.io), where I help new contributors get started with open-source, help them contribute to [Meshery](https://github.com/meshery), have regular sync-ups with new community members to set-up their local dev environments while contributing to Meshery or Layer5 projects.
+      
+      -
+      
+      - Apart from work, I love contributing to open-source, reading blogs/newsletters related to tech and latest trends in it. I also love participating in hackathons and during the past two years, I have won in a couple of them as well [My hackathon Projects](http://bit.ly/adikris-hackathons)
 
   socialIcons:
     - name: twitter
@@ -67,6 +81,10 @@ params:
       url: "https://github.com/adithyaakrishna"
     - name: linkedin
       url: "https://www.linkedin.com/in/navendup/"
+    - name: dev
+      url: "https://dev.to/adithyaakrishna"
+    - name: snapchat
+      url: "https://snapchat.com/add/adi.kris"
 
   # analytics:
   #   google:
@@ -120,4 +138,4 @@ markup:
     codeFences: true
     guessSyntax: true
     lineNos: true
-    # style: monokai
+    style: github
