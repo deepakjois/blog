@@ -1,0 +1,54 @@
+---
+import { Image } from "astro:assets";
+
+import PageLayout from "@/layouts/Base";
+import aboutImg from "@/assets/Adi.jpeg";
+
+const meta = {
+	title: "About",
+	description: "I'm a starter theme for Astro.build",
+};
+---
+
+<PageLayout meta={meta}>
+	<div class="space-y-6">
+		<h1 class="title">About</h1>
+		<p>
+			I am a Computer Science graduate from Jyothy Institute of Technology, Bengaluru, with a strong foundation in languages like JavaScript, Python, and Java. My journey has been marked by diverse experiences, including contributions to open-source projects at Red Hat and Google Summer of Code. I'm passionate about creating exceptional user experiences, evident through projects like a Wearable Indoor Navigation System for the Visually Impaired and an app for VIN number and Odometer recognition.
+			<br />
+			<br />
+			As a Software Engineer (L2) at Red Hat, I've optimized GitLab pipeline speeds and implemented custom components using React and Patternfly. Additionally, my role as a Maintainer of Meshery, a CNCF Sandbox Project at Layer5, showcases my commitment to enhancing project documentation and UI functionalities. Beyond technical prowess, I'm an active community organizer, co-founding the Tech Club of JyothyIT and co-organizing GitLab Bengaluru meetups.
+			<br />
+			<br />
+			My journey extends to presenting talks at conferences, publishing research articles, and participating in hackathons. With a focus on continuous learning and innovation, I look forward to leveraging my skills and experiences to make meaningful contributions in the ever-evolving tech landscape.
+		</p>
+		<div class="flex justify-center">
+			<Image
+				src={aboutImg}
+				alt="Adithya Pic"
+				loading="eager"
+				fetchpriority="high"
+				style={{borderRadius: '50%'}}
+			/>
+		</div>
+		<p>Here are my some of my awesome built in features:</p>
+		<ul class="list-inside list-disc">
+			<li>I'm ultra fast as I'm a static site</li>
+			<li>I'm fully responsive</li>
+			<li>I come with a light and dark mode</li>
+			<li>I'm easy to customise and add additional content</li>
+			<li>I have Tailwind CSS styling</li>
+			<li>Shiki code syntax highlighting</li>
+			<li>Satori for auto generating OG images for blog posts</li>
+		</ul>
+		<p>
+			Clone or fork my <a
+				class="cactus-link inline-block"
+				href="https://github.com/chrismwilliams/astro-cactus"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="github repository">repo</a
+			> if you like me!
+		</p>
+	</div>
+</PageLayout>
