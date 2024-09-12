@@ -12,6 +12,7 @@ import { remarkReadingTime } from "./src/utils/remark-reading-time.mjs";
 export default defineConfig({
 	site: "https://adikris.in",
 	base: "/blog",
+	trailingSlash: "always",
 	markdown: {
 		remarkPlugins: [remarkUnwrapImages, remarkReadingTime],
 		remarkRehype: { footnoteLabelProperties: { className: [""] } },
