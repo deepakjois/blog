@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
 import { defineConfig } from "astro/config";
 import fs from "fs";
 import mdx from "@astrojs/mdx";
@@ -11,8 +10,8 @@ import { remarkReadingTime } from "./src/utils/remark-reading-time.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://adithyaakrishna.github.io",
-	base: "blog/",
+	site: "https://adikris.in",
+	base: "/blog",
 	markdown: {
 		remarkPlugins: [remarkUnwrapImages, remarkReadingTime],
 		remarkRehype: { footnoteLabelProperties: { className: [""] } },
