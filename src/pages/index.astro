@@ -8,68 +8,31 @@ const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
-const cactusTech: Array<{ title: string; desc: string; href: string }> = [
-	{
-		title: "Languages",
-		desc: "Build fast websites, faster.",
-		href: "#",
-	},
-	{
-		title: "Libraries/Frameworks:",
-		desc: "Built-in optimized asset support.",
-		href: "#",
-	},
-	{
-		title: "Databases",
-		desc: "Rapidly build modern websites without ever leaving your HTML.",
-		href: "#",
-	},
-	{
-		title: "Design",
-		desc: "Simple and easy-to-use markup language.",
-		href: "#",
-	},
-	{
-		title: "Tools",
-		desc: "Markdown for the component era.",
-		href: "#",
-	},
-];
 ---
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-		<h1 class="title mb-6">Hey!</h1>
-		<p class="mb-4">
-			I'm Adithya Krishna and I design & develop things on the web
+		<h1 class="title">hey!</h1>
+		<span>ಕನ್ನಡ: ನಮಸ್ಕಾರ</span>
+		<p class="mb-2 mt-6">
+			my friend's call me <span class="rounded-lg bg-[#29bc89]/30 p-1 text-quote">adi</span> and im based out of <span class="rounded-lg bg-[#29bc89]/30 p-1 text-quote">bangalore</span> (yes, i love masale dose and filter coffee). i used to be a frontend engineer and now im more of a generalist (or maybe a design engineer?). 
+		</p>
+
+		<p class="mb-2 mt-6">
+			currently working at <strong><i>stark enterprises</i></strong> where I'm building ai infra for gen ai apps. along with that, im a <strike>emergency</strike> dev according to <a class="text-[#29bc89]" href="https://x.com/_adi18_" target="_blank">@_adi18_</a> for his legalai company <span class="rounded-lg bg-[#29bc89]/30 p-1 text-quote">nyayanidhi</span>
+		</p>
+
+		<p class="mb-2 mt-6">
+			i love meeting new people and going for breakfast walks. if you have any cafe suggestions or like to work from a cafe, im always up for it. pls feel free to hmu on twitter/x
 		</p>
 		<SocialList />
 	</section>
 	
-	<section class="mt-16">
-		<h2 class="title mb-4 text-xl">Technologies</h2>
-		<ul class="space-y-4 sm:space-y-2">
-			{
-				cactusTech.map(({ href, title, desc }) => (
-					<li>
-						<a
-							href={href}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="cactus-link inline-block"
-						>
-							{title}
-						</a>: 
-						<p class="inline-block sm:mt-2">{desc}</p>
-					</li>
-				))
-			}
-		</ul>
-	</section>
 
-	<section aria-label="Blog post list" class="mt-16">
-		<h2 class="title mb-4 text-xl">Blogs</h2>
-		<ul class="space-y-4 sm:space-y-2">
+	<section aria-label="Blog post list" class="mt-10">
+		<h2 class="title text-xl">memoirs</h2>
+		<span>ಕನ್ನಡ: ಆತ್ಮಚರಿತ್ರೆಗಳು</span>
+		<ul class="space-y-4 sm:space-y- mt-4">
 			{
 				allPostsByDate.map((p) => (
 					<li class="flex flex-col gap-x-2 sm:flex-row">

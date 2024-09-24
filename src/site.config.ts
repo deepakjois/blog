@@ -1,9 +1,9 @@
 import type { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
-	author: "Chris Williams",
-	title: "Astro Theme Cactus",
-	description: "An opinionated starter theme for Astro",
+	author: "adithya krishna",
+	title: "Adi's Blog",
+	description: "my blogs and short essays",
 	lang: "en-GB",
 	ogLocale: "en_GB",
 	date: {
@@ -24,15 +24,15 @@ export const siteConfig: SiteConfig = {
 // Used to generate links in both the Header & Footer.
 export const menuLinks: Array<{ title: string; path: string }> = [
 	{
-		title: "Home",
+		title: "home",
 		path: "/blog/",
 	},
 	{
-		title: "About",
+		title: "about",
 		path: "/blog/about/",
 	},
 	{
-		title: "Blog",
+		title: "blog",
 		path: "/blog/posts/",
 	},
 ];
