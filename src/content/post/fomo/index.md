@@ -6,7 +6,7 @@ updatedDate: "25 September 2024"
 coverImage:
   src: "./fomo.gif"
   alt: "Fear of missing out"
-tags: ["life", "living", "joy"]
+tags: ["life", "thoughts", "joy"]
 ---
 
 Let's cut the crap about FOMO being this terrible thing that's ruining your life. You know what? FOMO can be your secret weapon for becoming a 10/10 baddie. It's like having a personal trainer, career coach, and life guru all rolled into one, living rent-free in your head (until the anxiety kicks in)
