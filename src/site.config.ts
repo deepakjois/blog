@@ -1,9 +1,9 @@
 import type { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
-	author: "adithya krishna",
+	author: "Adithya Krishna",
 	title: "Adi's Blog",
-	description: "my blogs and short essays",
+	description: "My blogs and short essays",
 	lang: "en-GB",
 	ogLocale: "en_GB",
 	date: {
