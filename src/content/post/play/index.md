@@ -7,7 +7,7 @@ coverImage:
   src: "./play.png"
   alt: "Play"
 tags: ["work", "joy", "play"]
-published: false
+published: true
 ---
 
 Have you ever lost track of time while engrossed in an activity you love? That state of flow, where challenge meets skill, often feels like play. Paradoxically, it's in these moments that we often produce our best work.
