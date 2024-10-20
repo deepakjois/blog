@@ -1,5 +1,5 @@
 ---
-title: "play: the playful path to joy"
+title: "play: the joyful path to productivity"
 description: "how embracing playfulness in your work can pave the way for joy and creativity"
 publishDate: "21 October 2024"
 updatedDate: "21 October 2024"
