@@ -20,14 +20,17 @@ const dateTimeOptions: Intl.DateTimeFormatOptions = {
 
 {
 	data.coverImage && (
-		<div class="aspect-h-9 aspect-w-16 mb-6">
+		<div class="flex items-center mb-6">
+		<div class="aspect-w-16 aspect-h-9 flex-grow">
 			<Image
-				src={data.coverImage.src}
-				alt={data.coverImage.alt}
-				class="object-cover"
-				loading="eager"
-				fetchpriority="high"
+			src={data.coverImage.src}
+			alt={data.coverImage.alt}
+			class="object-cover w-full h-full"
+			loading="eager"
+			fetchpriority="high"
 			/>
+		</div>
+		<figcaption class="ml-4 flex-shrink-0">{data.coverImage.caption}</figcaption>
 		</div>
 	)
 }

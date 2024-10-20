@@ -6,6 +6,7 @@ updatedDate: "21 October 2024"
 coverImage:
   src: "./play.png"
   alt: "Play"
+  caption: "image credits to @golimitless"
 tags: ["work", "joy", "play"]
 published: true
 ---
