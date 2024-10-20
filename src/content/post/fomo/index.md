@@ -1,6 +1,6 @@
 ---
 title: "fomo: your unexpected ally"
-description: "fear of missing out and it being your best friend"
+description: "fear of missing out and it being your best friend."
 publishDate: "25 September 2024"
 updatedDate: "25 September 2024"
 coverImage:
